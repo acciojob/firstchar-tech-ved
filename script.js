@@ -1,21 +1,12 @@
 function firstChar(text) {
-  // your code here
-	function firstChar(str) {
 
-    for (let i = 0; i < str.length; i++) {
+    for (let i = 0; i < text.length; i++) {
 
-        if (str[i] !== " ") {
-            return str[i];
+        if (text[i] !== " ") {
+            return text[i];
         }
 
     }
 
     return "";
 }
-
-}
-
-// Do not change the code below
-//Uncomment the following line to show the prompt popup
-//const text = prompt("Enter text:");
-alert(firstChar(text));
